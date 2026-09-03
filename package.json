@@ -1,0 +1,29 @@
+{
+  "name": "hoppahome",
+  "version": "1.0.0",
+  "description": "This is my personal website where I put stuff.",
+  "homepage": "https://github.com/RileyHop1/My-Web-Site#readme",
+  "bugs": {
+    "url": "https://github.com/RileyHop1/My-Web-Site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RileyHop1/My-Web-Site.git"
+  },
+  "license": "ISC",
+  "author": "Riley Hopper",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@nestjs/core": "^12.0.1",
+    "mongodb": "^7.6.0",
+    "vue": "^3.5.42"
+  },
+  "devDependencies": {
+    "vite": "^8.2.2"
+  }
+}
