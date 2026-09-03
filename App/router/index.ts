@@ -5,6 +5,7 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         { path: '/', component: () => import('@/Pages/Landing/Landing.vue') },
+        { path: '/Blog', component: () => import('@/Pages/Blog/Blog.vue') },
     ],
 });
 
