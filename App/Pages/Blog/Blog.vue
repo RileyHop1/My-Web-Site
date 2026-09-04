@@ -2,10 +2,13 @@
     <div>
         <div class="Blog-page-general">
             <h1 class="Blog-page-heading">Checkout the my most current articles.</h1>
+            <ArticleCard></ArticleCard>
         </div>
+
     </div>
 </template>
 <script setup lang="ts">
+import  ArticleCard  from '@/Composables/articleCard.vue'
 
 </script>
 <style>
@@ -17,6 +20,8 @@
 }
 
 .Blog-page-heading {
+    display: inline-block;
+    border-bottom: 2px solid #14181c;
 
 }
 </style>
