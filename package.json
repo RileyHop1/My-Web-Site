@@ -16,12 +16,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite serve ./app.vue"
+    "dev": "vite"
   },
   "dependencies": {
     "@nestjs/core": "^12.0.1",
     "mongodb": "^7.6.0",
-    "vue": "^3.5.42"
+    "vue": "^3.5.42",
+    "vue-router": "^5.3.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.8",
