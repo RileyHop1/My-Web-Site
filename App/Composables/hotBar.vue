@@ -11,10 +11,9 @@ defineProps(['nave-item']);
 </template>
 <style lang="css">
 .hot_bar_composable {
-    align-items: center;
     display: flex;
-    gap: 5px;
-    border-bottom: 1px solid white;
-
+    gap: 0;
+    background-color: #1c2127;
+    border-bottom: 1px solid #14181c;
 }
 </style>

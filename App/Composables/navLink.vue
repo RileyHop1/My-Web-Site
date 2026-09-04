@@ -7,17 +7,15 @@ defineProps(['link', 'title'])
 <style>
 .Nav-route-option {
     display: inline-block;
-    padding: 8px 8px;
-    color:aliceblue;
-    
-
-
+    padding: 8px 16px;
+    color: #abb3bf;
+    text-decoration: none;
+    border-top: 2px solid transparent;
 }
 .Nav-route-option.router-link-active {
-    color:aliceblue;
-    border: 1px solid white;
-    border-bottom: rgb(48, 58, 109);
-    background-color: rgb(48, 58, 109);
-    margin-bottom: -1px;
+    color: #f6f7f9;
+    background-color: #252a31;
+    border-top: 2px solid #4c90f0;
+    margin-bottom: -2px; 
 }
 </style>

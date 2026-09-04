@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="Blog-page-general">
-            <h1 class="Blog-page-heading">Checkout the my most current articles.</h1>
+        <div class="Projects-page-general">
+            <h1 class="Projects-page-heading">Take a peak on what I'm working on.</h1>
         </div>
     </div>
 </template>
@@ -9,14 +9,14 @@
 
 </script>
 <style>
-.Blog-page-general {
+.Projects-page-general {
     color: #f6f7f9;
     background-color: #252a31;
     padding: 1.5rem 2rem;
     min-height: 100vh;
 }
 
-.Blog-page-heading {
+.Projects-page-heading {
 
 }
 </style>
