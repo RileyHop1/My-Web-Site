@@ -2,9 +2,7 @@
     <div>
         <div class="Blog-page-general">
             <h1 class="Blog-page-heading">Checkout the my most current articles.</h1>
-            <ArticleCard></ArticleCard>
         </div>
-
     </div>
 </template>
 <script setup lang="ts">

@@ -68,6 +68,8 @@
 }
 .Landing-page-heading {
     margin-top: 0;
+    display: inline-block;
+    border-bottom: 2px solid #14181c;
 
 }
 </style>
