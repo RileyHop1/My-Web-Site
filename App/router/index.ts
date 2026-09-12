@@ -4,11 +4,11 @@ import { createRouter, createWebHistory } from "vue-router";
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: "/", component: () => import("@/Pages/Landing/Landing.vue") },
-    { path: "/Blog", component: () => import("@/Pages/Blog/Blog.vue") },
+    { path: "/", component: () => import("@/Pages/Landing/landing.vue") },
+    { path: "/Blog", component: () => import("@/Pages/Blog/blog.vue") },
     {
       path: "/Projects",
-      component: () => import("@/Pages/Projects/Projects.vue"),
+      component: () => import("@/Pages/Projects/projects.vue"),
     },
   ],
 });
